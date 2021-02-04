@@ -23,7 +23,7 @@
     "*.html": "htmlhint"
   },
   "keywords": [],
-  "author": "Lene Frei",
+  "author": "Melissa Gries",
   "license": "ISC",
   "main": "index.js",
   "repository": {
