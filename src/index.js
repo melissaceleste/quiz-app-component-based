@@ -1,7 +1,15 @@
 import Button from './components/Button'
+import Header from './components/Header'
+import Cards from './components/Cards'
+import createElement from './lib/createElement'
 
-const button = Button('Click me')
-const button2 = Button('Hold me')
+const grid = createElement(
+  'div',
+  { className: 'appGrid' },
+  Header('Quiz App', 'May the best win!'),
+  Cards('Welche Kunden werden nie bedient?', 'die Sekunden'),
+  Button('Click me'),
+  Button('Hold me')
+)
 
-document.body.append(button)
-document.body.append(button2)
+document.body.append(grid)
