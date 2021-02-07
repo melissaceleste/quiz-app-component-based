@@ -1,8 +1,18 @@
+import createElement from '../lib/createElement'
 import './Button.css'
 
 export default function Button(text) {
-  const el = document.createElement('button')
-  el.className = 'Button'
-  el.innerText = text
+  const el = createElement('button', { className: 'Button', innerText: text })
+
+  /*
+export default function createElement(type, props, ...children) {
+  // children is a rest parameter
+  const el = document.createElement(type)
+  Object.assign(el, props)
+  children && el.append(...children) // spread operator
+  return el
+} 
+*/
+
   return el
 }
