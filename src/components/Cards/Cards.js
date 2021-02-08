@@ -1,5 +1,5 @@
-import createElement from '../lib/createElement'
-import Button from './Button'
+import createElement from '../../lib/createElement'
+import Button from '../Button'
 import './Cards.css'
 
 export default function Cards(question, answer) {
