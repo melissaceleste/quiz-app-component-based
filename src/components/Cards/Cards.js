@@ -2,7 +2,7 @@ import createElement from '../../lib/createElement'
 import Button from '../Button'
 import './Cards.css'
 
-export default function Cards(question, answer) {
+export default function Card(question, answer) {
   const questionEl = createElement('h2', { innerText: question })
   const buttonEl = Button('Show answer')
   const answerEl = createElement('p', { hidden: true, innerText: answer })
@@ -13,7 +13,7 @@ export default function Cards(question, answer) {
 
   const el = createElement(
     'section',
-    { className: 'Cards' },
+    { className: 'Card' },
     questionEl,
     buttonEl,
     answerEl
