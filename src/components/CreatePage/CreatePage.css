@@ -1,14 +1,14 @@
-.form {
+.createPage {
   display: grid;
   gap: 24px;
   padding: 20px;
 }
 
-.form label {
+.createPage label {
   display: grid;
 }
 
-.form input {
+.createPage input {
   padding: 4px;
   border: 2px solid #ccc;
 }

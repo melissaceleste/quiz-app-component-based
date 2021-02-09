@@ -2,9 +2,9 @@ import createElement from '../../lib/createElement'
 import './Button.css'
 
 export default function Button(text) {
-  const el = createElement('button', { className: 'Button', innerText: text })
-
-  /*
+  return createElement('button', { className: 'Button', innerText: text })
+}
+/*
 export default function createElement(type, props, ...children) {
   // children is a rest parameter
   const el = document.createElement(type)
@@ -13,6 +13,3 @@ export default function createElement(type, props, ...children) {
   return el
 } 
 */
-
-  return el
-}

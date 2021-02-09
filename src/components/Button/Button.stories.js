@@ -5,5 +5,5 @@ export default {
   component: Button,
 }
 
-export const base = () => Button('Click')
-export const longText = () => Button('you should click that')
+export const base = () => Button('Hello')
+export const longText = () => Button('Hello world, this is a long text')

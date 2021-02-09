@@ -21,6 +21,10 @@ button {
   font-size: 1em;
 }
 
-/* .hidden {
-  display: hidden;
-} */
+input {
+  width: 100%;
+}
+
+[hidden] {
+  display: none !important;
+}

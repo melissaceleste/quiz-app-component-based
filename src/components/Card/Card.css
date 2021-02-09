@@ -1,9 +1,9 @@
-.Cards {
+.Card {
   padding: 20px;
   background: #eee;
   margin: 20px;
 }
 
-.Cards h2 {
+.Card h2 {
   font-size: 1em;
 }

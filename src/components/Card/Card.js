@@ -1,6 +1,6 @@
 import createElement from '../../lib/createElement'
 import Button from '../Button'
-import './Cards.css'
+import './Card.css'
 
 export default function Card(question, answer) {
   const questionEl = createElement('h2', { innerText: question })
@@ -19,12 +19,13 @@ export default function Card(question, answer) {
     answerEl
   )
 
-  /* const el = document.createElement('section')
+  return el
+}
+
+/* const el = document.createElement('section')
   el.className = 'Cards'
   el.innerHTML = `
     <h2>${question}</h2>
     <button>Show answer</button>
     <p hidden>${answer}</p>
   ` */
-  return el
-}
